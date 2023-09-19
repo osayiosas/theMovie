@@ -1,12 +1,13 @@
 import React from "react";
+import image from '../image/poster.jpg'
 
 const Card = () => {
   return (
     <div>
       <div className="movie">
         <img
-          src="../image/poster.jpg" alt="poster"
-        ></img>
+          src={image} alt="poster"
+         width={250}></img>
 
         <div className="movie-details">
           <div className="box">

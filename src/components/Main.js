@@ -33,16 +33,18 @@ const Main = () => {
               className="inputText"
             ></input>
             <button>
-              <i class="fa-thin fa-magnifying-glass"></i>
+              <i class="fa-brands fa-searchengin"></i>
             </button>
           </div>
         </form>
       </div>
 
       <div className="container">
-
         <Card />
-
+        <Card />
+        <Card />
+        <Card />
+        <Card />
       </div>
     </>
   );
